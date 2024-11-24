@@ -1,0 +1,12 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+.common_class{
+    @apply bg-white border-2 border-blue-500 rounded-xl p-4
+}
+.card{
+    @apply flex gap-10 flex-col md:flex-row bg-white md:bg-transparent p-4 rounded-xl shadow-md md:shadow-none shadow-black/20
+}
